@@ -220,10 +220,10 @@ body {
   cursor: pointer;
   transition: all 0.2s; }
   .btn-inline:hover {
-    color: var(--color-grey-dark-1); }
-  .btn-inline:focus {
-    outline: none;
+    color: var(--color-grey-dark-1);
     animation: pulsate 1s infinite; }
+  .btn-inline:focus {
+    outline: none; }
 
 @keyframes pulsate {
   0% {

@@ -252,11 +252,11 @@
 
   &:hover {
     color: var(--color-grey-dark-1);
+    animation: pulsate 1s infinite;
   }
 
   &:focus {
     outline: none;
-    animation: pulsate 1s infinite;
   }
 }
 
