@@ -332,6 +332,7 @@
 
   &__count {
     margin-right: auto;
+    font-size: 1.5rem;
   }
 
   &__photo {
@@ -353,6 +354,10 @@
   padding: 3rem;
   margin-top: 3.5rem;
   position: relative;
+
+  &:last-of-type {
+    margin-bottom: 2rem;
+  }
 
   &__text {
     position: relative;
@@ -380,11 +385,11 @@
   &__user-name {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 
   &__user-date {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   &__rating {
@@ -411,7 +416,7 @@
   text-align: center;
 
   &__book-now {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem;

@@ -273,7 +273,8 @@ body {
   display: flex;
   align-items: center; }
   .recommend__count {
-    margin-right: auto; }
+    margin-right: auto;
+    font-size: 1.5rem; }
   .recommend__photo {
     height: 4rem;
     width: 4rem;
@@ -289,6 +290,8 @@ body {
   padding: 3rem;
   margin-top: 3.5rem;
   position: relative; }
+  .review:last-of-type {
+    margin-bottom: 2rem; }
   .review__text {
     position: relative;
     z-index: 10; }
@@ -307,9 +310,9 @@ body {
   .review__user-name {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.1rem; }
+    font-size: 1.25rem; }
   .review__user-date {
-    font-size: 1rem; }
+    font-size: 1.1rem; }
   .review__rating {
     margin-left: auto;
     font-size: 2rem;
@@ -329,7 +332,7 @@ body {
   padding: 3.5rem 0;
   text-align: center; }
   .cta__book-now {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
