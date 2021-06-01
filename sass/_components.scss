@@ -12,7 +12,8 @@
   @media only screen and (max-width: $bp-smallest) {
     order: 1;
     flex-wrap: wrap;
-    flex: 0 0 100%;
+    flex: 0 100%;
+    background-color: var(--color-grey-light-2);
   }
 
   &__input {
@@ -31,6 +32,10 @@
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3);
+
+      @media only screen and (max-width: $bp-smallest) {
+        width: 95%;
+      }
     }
 
     &::-webkit-input-placeholder {
@@ -184,6 +189,10 @@
       flex-direction: column;
       padding: 1.5rem 0.5rem;
     }
+
+    @media only screen and (max-width: $bp-phone) {
+      padding: 1rem 0.3rem;
+    }
   }
 
   &__icon {
@@ -237,6 +246,11 @@
       font-size: 1.8rem;
       padding: 1.25rem 2rem;
     }
+
+    @media only screen and (max-width: $bp-phone) {
+      font-size: 1.3rem;
+      padding: 1rem 1.5rem;
+    }
   }
 
   &__stars {
@@ -249,6 +263,11 @@
     height: 1.75rem;
     width: 1.75rem;
     fill: var(--color-primary);
+
+    @media only screen and (max-width: $bp-phone) {
+      height: 1.4rem;
+      width: 1.4rem;
+    }
   }
 
   &__location {
@@ -491,6 +510,10 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $bp-phone) {
+      padding: 1.5rem 2rem;
+    }
   }
 }
 

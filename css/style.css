@@ -57,7 +57,8 @@ body {
     .search {
       order: 1;
       flex-wrap: wrap;
-      flex: 0 0 100%; } }
+      flex: 0 100%;
+      background-color: var(--color-grey-light-2); } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -73,6 +74,9 @@ body {
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3); }
+      @media only screen and (max-width: 31.25em) {
+        .search__input:focus {
+          width: 95%; } }
     .search__input::-webkit-input-placeholder {
       color: var(--color-grey-light-4); }
   .search__input:focus + .search__button {
@@ -177,6 +181,9 @@ body {
       .side-nav__link:link, .side-nav__link:visited {
         flex-direction: column;
         padding: 1.5rem 0.5rem; } }
+    @media only screen and (max-width: 23.4375em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        padding: 1rem 0.3rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
@@ -218,6 +225,10 @@ body {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
+    @media only screen and (max-width: 23.4375em) {
+      .overview__heading {
+        font-size: 1.3rem;
+        padding: 1rem 1.5rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -225,6 +236,10 @@ body {
     height: 1.75rem;
     width: 1.75rem;
     fill: var(--color-primary); }
+    @media only screen and (max-width: 23.4375em) {
+      .overview__icon-star, .overview__icon-location {
+        height: 1.4rem;
+        width: 1.4rem; } }
   .overview__location {
     font-size: 1.2rem;
     display: flex;
@@ -394,6 +409,9 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 23.4375em) {
+      .cta__book-now {
+        padding: 1.5rem 2rem; } }
 
 .btn {
   font-size: 1.5rem;
